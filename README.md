@@ -31,12 +31,11 @@ Data-ML-Engineer-ex3/
 ├── requirements.txt
 └── README.md
 ```
+### Dataset
+Place the file `userid-timestamp-artid-artname-traid-traname.tsv` inside the `data/` folder before running the notebook.
 
 ### Setup
 ```bash
 pip install -r requirements.txt
 jupyter notebook notebooks/ARIMA_LastFM_forecast.ipynb
 ```
-
-### Dataset
-Place the file `userid-timestamp-artid-artname-traid-traname.tsv` inside the `data/` folder before running the notebook.
